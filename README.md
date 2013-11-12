@@ -15,6 +15,15 @@ In comparison to the alternatives:
 Usage
 ---------
 Until the project made further progress, please check out the examples/ directory.
+All examples only work served by a proper webserver (no file:// proto). To start a simple webserver using node:
+
+    npm install
+
+Now just run:
+
+    grunt webserver
+
+...and browse to [http://localhost:3000/examples/](http://localhost:3000/examples/)[choose an example]/
 
 Building Quiddle.js
 ---------
